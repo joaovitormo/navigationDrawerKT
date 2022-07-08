@@ -17,9 +17,9 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
         <item
-            android:id="@+id/nav_teste1"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="TESTE 1" />
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="Contatos" />
         <item
             android:id="@+id/nav_teste2"
             android:icon="@drawable/ic_menu_slideshow"
@@ -30,30 +30,22 @@
             android:title="TESTE 3" />
     </group>
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home2"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery2"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow2"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_teste4"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="TESTE 1" />
-        <item
-            android:id="@+id/nav_teste5"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="TESTE 2" />
-        <item
-            android:id="@+id/nav_teste6"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="TESTE 3" />
-    </group>
+    <item android:title="Comunicação">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_teste4"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="TESTE 1" />
+                <item
+                    android:id="@+id/nav_teste5"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="TESTE 2" />
+                <item
+                    android:id="@+id/nav_teste6"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="TESTE 3" />
+            </group>
+        </menu>
+    </item>
 </menu>

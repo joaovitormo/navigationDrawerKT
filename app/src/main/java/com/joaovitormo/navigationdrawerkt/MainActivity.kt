@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         //Itens do Menu
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_contato
             ), drawerLayout
         )
         //Configura o NavController (simbolo do menu)
